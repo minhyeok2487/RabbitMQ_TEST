@@ -20,6 +20,7 @@ class MessageController(
     @PostMapping("/rabbit")
     fun sendMessage(@RequestBody message: String): String {
         messageSenderService.sendMessage(message)
+        println("커밋 3")
         return "ok"
     }
 }
