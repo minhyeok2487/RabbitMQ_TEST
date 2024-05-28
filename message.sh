@@ -1,4 +1,4 @@
-for i in {1..100}
+for i in {1..20}
 do
   curl -X POST \
     http://localhost:8080/rabbit \
